@@ -1,3 +1,5 @@
+#Autor : Joao alves
+
 import RPi.GPIO as GPIO
 from time import sleep
 from socket import *
@@ -165,3 +167,4 @@ try:
     concts()
 except:
     print('ERRO AO TENTAR SE CONECTAR!!! \n VERIFIQUE SE ESTA CONECTADO A UMA REDE (WIFI)')
+#Autor : Joao alves
